@@ -1,0 +1,192 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.head {
+    size: 10px;
+    background-color: rgb(197, 158, 233);
+    width: 100%;
+    /* padding: 5px 200px; */
+    padding: 0.4em 13em;
+    box-sizing: border-box;
+    background-image: url(../images/bg4.jpg);
+    overflow: hidden;
+}
+
+.head_form {
+    float: right;
+    padding-top: 3.2rem;
+}
+
+.head_form button {
+    width: 4rem;
+    height: 2rem;
+    color: white;
+    background-color: red;
+}
+
+.daohang_div {
+    size: 8px;
+    background-color: rgb(197, 169, 224);
+    max-height: 80px;
+    height: 3rem;
+    text-align: center;
+    background-color: red;
+}
+
+.daohang_div a {
+    font-size: 1.3rem;
+    font-family: "微软雅黑";
+    color: white;
+    font-weight: bold;
+    margin-left: 20px;
+    line-height: 3rem;
+}
+
+.daohang_div li {
+    text-align: center;
+    display: inline;
+}
+
+.daohang_0 {
+    padding: left 300px;
+    size: 20px;
+}
+
+.main .img_1 {
+    width: 40%;
+    height: 40%;
+}
+
+.left_div {
+    float: left;
+    width: 60%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    margin-left: 10%;
+}
+
+.left_div .hometext {
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.left_div .left1 {
+    width: 100%;
+    background-color: rgb(193, 164, 164);
+    margin-top: 2rem;
+    /* border-radius: 1rem red; */
+}
+
+.left_div .left1 header {
+    margin: 1rem 1rem;
+}
+
+.left1 header p {
+    border: dashed 0.5px;
+    border-radius: 0.5px;
+}
+
+.left_div .left1 header {
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.left_div .left2 {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+    background-color: rgb(68, 230, 230);
+}
+
+.left_div .left2 textarea {
+    width: 99.9%;
+    height: 5rem;
+}
+
+.left_div .left2 button {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 8rem;
+    height: 2rem;
+    color: white;
+    background-color: red;
+}
+
+.right_div {
+    width: 20%;
+    height: 40rem;
+    background-color: rgb(145, 196, 193);
+    margin-right: 10%;
+}
+
+.right_div li {
+    list-style: none;
+}
+
+.right_div .img1 {
+    width: 100%;
+    height: uato;
+}
+
+.right_div .img2 {
+    width: 100%;
+    height: uato;
+}
+
+.right_div .img3 {
+    width: 100%;
+    height: uato;
+}
+
+.main {
+    overflow: hidden;
+}
+
+.main .left_div .hometext figure {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h3 p {
+    text-align: center;
+}
+
+h1 {
+    text-align: left;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 1rem;
+    margin-left: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+.foot li {
+    display: inline;
+}
+
+.foot {
+    size: 10px;
+    background-color: rgba(22, 11, 32, 0.855);
+    text-align: center;
+}
+
+
+/* p {
+    margin-top: 1.5rem;
+    line-height: 1.8rem;
+    text-indent: 2rem;
+} */
+
+.left1 p {
+    text-indent: 0;
+}

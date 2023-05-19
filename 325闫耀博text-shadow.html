@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            text-align: center;
+        }
+        
+        .text1 {
+            color: #1C9F96;
+            text-shadow: 1px 1px #BAE6EF, 2px 2px #BAE6EF, 3px 3px #BAE6EF, 4px 4px #BAE6EF, 5px 5px #BAE6EF;
+            font-weight: bold;
+            letter-spacing: 10px;
+            font-size: 20px;
+        }
+        
+        .text2 {
+            color: #1C9F96;
+            text-shadow: -1px 1px #e6fbff, 1px -1px #4b5c5f;
+            font-size: 20px;
+            font-weight: bold;
+            letter-spacing: 10px;
+        }
+        
+        .text3 {
+            color: #1C9F96;
+            text-shadow: 1px -1px #e6fbff, -1px 1px #4b5c5f;
+            font-size: 20px;
+            font-weight: bold;
+            letter-spacing: 10px;
+        }
+        
+        .text4 {
+            color: transparent;
+            text-shadow: 0 0 5px #FFFF66, 1px 1px 1px #fff, -1px -1px 1px #fff, 0 0 10px #FFFF99, 0 0 20px #B9EB50;
+            font-size: 20px;
+            letter-spacing: 10px;
+        }
+        
+        .text5 {
+            color: white;
+            font-size: 20px;
+            letter-spacing: 10px;
+            text-shadow: 1px 1px 0 red, -1px 1px 0 red, 1px -1px 0 red, -1px -1px 0 red;
+        }
+        
+        .text6 {
+            color: white;
+            font-size: 20px;
+            letter-spacing: 10px;
+            text-shadow: 0 0 30px red, 0 0 20px red;
+        }
+        
+        .text7 {
+            color: rgb(185, 52, 56);
+            font-size: 20px;
+            letter-spacing: 10px;
+            text-shadow: 0 0 0px rgb(255, 255, 255), -1px -3px 2px rgb(187, 85, 85), 1px -5px 5px rgb(217, 70, 70), -2px -7px 8px rgb(233, 104, 11), 2px -12px 10px rgb(255, 0, 0);
+        }
+        
+        .div_shadow {
+            width: 1000px;
+            height: 700px;
+            background-color: #1C9F96;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            margin: 0 auto;
+            border: #11e1d3 1px solid;
+            border-radius: 50% 50%;
+        }
+        
+        .div_shadow:hover {
+            box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+            background-color: #48938e;
+        }
+        
+        .div_li {
+            width: 800px;
+            height: 600px;
+            background-color: #25b1a7;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            margin: 0 auto;
+            border: #11e1d3 1px solid;
+            border-radius: 50% 50%;
+            margin-top: 5%;
+        }
+        
+        .btn1 {
+            width: 270px;
+            height: 40px;
+            line-height: 40px;
+            border-radius: 5px;
+            background-color: #96e3de;
+            border: none;
+            box-shadow: 0 0px 10px rgb(0, 0, 0, 0.3), 0 0px 10px rgb(0, 0, 0, 0.3) inset;
+            position: relative;
+        }
+        
+        .btn1:after,
+        .btn1:before {
+            content: "";
+            position: absolute;
+            bottom: 14px;
+            left: 14px;
+            width: 50%;
+            height: 20%;
+            box-shadow: 0 18px 10px rgba(185, 72, 72, 0.7);
+            z-index: -1;
+            transform: rotate(-5deg);
+        }
+        
+        .btn1:after {
+            right: 5px;
+            left: auto;
+            transform: rotate(5deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div_shadow">
+        <div class="div_li">
+            <span class="text1"><p>中国人不骗中国人</p></span>
+            <span class="text2"><p>中国人不骗中国人</p></span>
+            <span class="text3"><p>中国人不骗中国人</p></span>
+            <span class="text4"><p>中国人不骗中国人</p></span>
+            <span class="text5"><p>CHINA AND CHINESE</p></span>
+            <span class="text6"><p>中国人不骗中国人</p></span>
+            <span class="text7"><p>中国人不骗中国人</p></span>
+            <button class="btn1">submit</button>
+            <div></div>
+        </div>
+
+
+
+
+    </div>
+</body>
+
+</html>

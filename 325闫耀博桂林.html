@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        .div_1 a:before {
+            color: red;
+            display: block;
+        }
+        
+        .div_1 a:hover:after {
+            position: relative;
+            background-color: rgba(245, 239, 227, 0.452);
+            content: attr(title);
+            display: block;
+            height: 1.5rem;
+            bottom: 1.8rem;
+            color: wheat;
+            /* font-weight: bold; */
+            font-family: "微软雅黑";
+        }
+        
+        img {
+            width: 250px;
+            height: auto;
+        }
+        
+        .div_1 li {
+            float: left;
+            padding: 0.5rem;
+            display: inline;
+        }
+        
+        header {
+            background-color: yellowgreen;
+            height: 40px;
+            line-height: 40px;
+        }
+        
+        h3:before {
+            content: "";
+            position: relative;
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background-color: rgb(94, 233, 143);
+            top: 3px;
+            right: 2px;
+        }
+        
+        .div_1 {
+            margin: 0 auto;
+            width: 800px;
+            height: 300px;
+            /* background-color: rgba(177, 179, 235, 0.422); */
+            text-align: center;
+        }
+        
+        .div_2 {
+            width: 500px;
+            height: 200px;
+            margin: 0 auto;
+        }
+        
+        .div_2 li a:before {
+            content: "";
+            display: inline-block;
+            border: 5px solid red;
+            border-color: yellow transparent transparent red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div_1">
+        <header>
+            <h3>桂林山水假天下</h3>
+        </header>
+        <ul>
+            <li>
+                <a title="桂林好">
+                    <img src="./img/picture1.jpg">
+                </a>
+            </li>
+            <li>
+                <a title="桂林妙">
+                    <img src="./img/picture1.jpg">
+                </a>
+            </li>
+            <li>
+                <a title="桂林山水呱呱叫">
+                    <img src="./img/picture1.jpg">
+                </a>
+            </li>
+
+        </ul>
+    </div>
+    <div class="div_2">
+        <ul>
+
+            <li><a>11111111</a></li>
+        </ul>
+
+
+    </div>
+
+
+</body>
+
+</html>

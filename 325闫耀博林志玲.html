@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>林志玲</title>
+    <style>
+        * {
+            list-style-type: none;
+            margin: 0 auto;
+            padding: 0;
+        }
+        
+        .div_home {
+            width: 700px;
+            height: 350px;
+            margin-top: 50px;
+            border: 1px rgb(0, 0, 0) solid;
+        }
+        
+        .div_home .header {
+            border-top: 5px solid rgb(255, 162, 0);
+            background-color: rgb(192, 219, 241);
+            height: 50px;
+            width: 700px;
+        }
+        
+        li a:before {
+            content: "";
+            display: inline-block;
+            border: 5px solid red;
+            margin-right: 5px;
+            border-color: yellow transparent transparent red;
+        }
+        
+        a:hover {
+            color: rgb(249, 222, 11);
+        }
+        
+        li {
+            border-bottom: 2px rgba(198, 138, 138, 0.586) dashed;
+            margin-top: 10px;
+        }
+        
+        img {
+            width: 100%;
+            height: auto;
+        }
+        
+        img::before {
+            content: "你好";
+        }
+        
+        .div_2 {
+            width: 700px;
+            height: auto;
+        }
+        
+        .img_div {
+            width: 300px;
+            float: left;
+            margin-left: 20px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        
+        .right_div {
+            width: 300px;
+            float: right;
+            margin-left: 15px;
+            margin-right: 20px;
+            margin-top: 20px;
+        }
+        
+        .remen {
+            display: inline-block;
+            color: rgb(255, 255, 255);
+            width: 30px;
+            height: 20px;
+            line-height: 20px;
+            position: relative;
+            background-color: orange;
+            font-size: 10px;
+            margin-left: 20px;
+            margin-right: 10px;
+            margin-top: 5PX;
+            left: 2px;
+        }
+        
+        .remen:after {
+            content: "";
+            position: absolute;
+            top: 0px;
+            border: 8px solid;
+            border-color: orange transparent transparent orange
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div_home">
+        <div class="header">
+            <header>
+
+                <h3><span class="remen">热门</span>娱乐新闻</h3>
+
+            </header>
+
+
+        </div>
+        <div class="div2">
+            <div class="img_div">
+                <img src="./img/xiaolin.png"></br>
+                <p>baby红唇甜美VS赵凌盈短发俏丽</p>
+            </div>
+            <div class="right_div">
+                <ul>
+                    <li><a>林志玲出问题了，出了大问题哈哈哈哈</a></li>
+                    <li><a>林志玲出问题了，出了大问题哈哈哈哈</a></li>
+                    <li><a>林志玲出问题了，出了大问题哈哈哈哈</a></li>
+                    <li><a>林志玲出问题了，出了大问题哈哈哈哈</a></li>
+                    <li><a>林志玲出问题了，出了大问题哈哈哈哈</a></li>
+                    <li><a>林志玲出问题了，出了大问题哈哈哈哈</a></li>
+                </ul>
+
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+
+</body>
+
+
+
+
+</html>

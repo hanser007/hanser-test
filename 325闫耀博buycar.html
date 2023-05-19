@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+        .list:only-child:empty {
+            display: none;
+        }
+        
+        .imglist {
+            display: none;
+        }
+        
+        #list:target {
+            display: block;
+        }
+        
+        .buycar {
+            background-color: rgb(224, 224, 148);
+            width: 100px;
+            height: 30px;
+        }
+        
+        .buycar a {
+            display: inline-block;
+            background-color: rgb(230, 230, 16);
+            width: 20px;
+            left: 20px;
+            position: relative;
+            list-style-type: none;
+        }
+        
+        .up {
+            width: 10px;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="buycar">
+        购物车<a href="#list">5</a>
+    </div>
+    <div class="imglist" id="list">
+        <img src="./img/list.jpg" class="tu">
+        <a href="#"><img src="./img/up.jpg" class="up"></a>
+    </div>
+
+</body>
+
+</html>
