@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0 auto;
+            padding: 0;
+            list-style-type: none;
+        }
+        
+        .radial {
+            background-image: radial-gradient();
+        }
+        
+        .body {
+            margin: 0 auto;
+            width: 400px;
+            height: 400px;
+            border: 1px solid;
+        }
+        
+        .head {
+            width: 400px;
+            height: 40px;
+            background-image: linear-gradient(30deg, red, rgb(35, 35, 205), green);
+            line-height: 40px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        
+        .xinwen::before {
+            content: "";
+            display: inline-block;
+            background-image: radial-gradient(ellipse at center, #0f0, rgb(229, 44, 44));
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+        
+        .center li {
+            align-items: center;
+            display: block;
+            border-bottom: 1px rgba(190, 87, 87, 0.93) dashed;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+        
+        a {
+            text-decoration: none;
+            color: rgb(233, 42, 42);
+            font-size: 18px;
+        }
+        
+        li::before {
+            content: "";
+            display: inline-block;
+            border-radius: 50%;
+            background-image: radial-gradient(ellipse at center, #0f0, rgb(106, 101, 46));
+            width: 10px;
+            height: 10px;
+            line-height: 20px;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="body">
+        <header>
+            <div class="head">
+                <p class="xinwen">新闻动态</p>
+            </div>
+        </header>
+        <div class="center">
+            <ul>
+                <li><a href="#">123456789</a></li>
+                <li><a href="#">123456789</a></li>
+                <li><a href="#">123456789</a></li>
+                <li><a href="#">123456789</a></li>
+                <li><a href="#">123456789</a></li>
+                <li><a href="#">123456789</a></li>
+            </ul>
+
+
+        </div>
+
+
+    </div>
+</body>
+
+</html>
